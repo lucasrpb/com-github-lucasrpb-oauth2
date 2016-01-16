@@ -1,0 +1,16 @@
+WEB:
+https://accounts.google.com/o/oauth2/auth?scope=email%20profile&state=security_token%3D138r5719ru3e1%26url%3Dhttps://oa2cb.example.com/myHome&redirect_uri=http://lucasrpbdemoapp.appspot.com&response_type=code&client_id=1040498881965-0ea5iokfmoi2uh9dan4maeshqfkhff75.apps.googleusercontent.com
+
+AUTHORIZATION_CODE:
+
+POST https://accounts.google.com/oauth2/v3/token HTTP/1.1
+Host: www.googleapis.com
+Content-Type: application/x-www-form-urlencoded
+
+code=4/X5IZEiBQ2Ll3o-lElBJlpBf4l0RT4bK4hQ0qL6SaHUg2
+client_id=1040498881965-0ea5iokfmoi2uh9dan4maeshqfkhff75.apps.googleusercontent.com
+client_secret=_kckTQ6a21TH-XZxR7Hx9whU
+redirect_uri=http://lucasrpbdemoapp.appspot.com
+grant_type=authorization_code
+
+https://accounts.google.com/o/oauth2/auth?scope=emai%20profile&state=security_token%3D138r5719ru3e1%26url%3Dhttps://oa2cb.example.com/myHome&redirect_uri=http://lucasrpbdemoapp.appspot.com&response_type=code&client_id=1040498881965-0ea5iokfmoi2uh9dan4maeshqfkhff75.apps.googleusercontent.com
